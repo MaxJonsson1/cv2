@@ -1,0 +1,82 @@
+.flex-container{
+    
+    display: flex;
+    background-color: #E0E0E0;
+    flex-direction: row;
+  
+}
+
+.button{
+
+    background-color: #C0C0C0;
+    margin: 70px;
+    color: black;
+    width: 180px;
+    height: 15px;
+    padding-bottom: 60px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    text-align: center;
+    border-color: black;
+    
+}
+
+.button:hover{
+
+    cursor: pointer;
+    background-color: grey;
+    transition: 0.3s;
+   
+}
+
+#h_1{
+
+    margin-left: 570px;
+
+}
+
+#border{
+
+margin-right: 960px;
+margin-top: 44px;
+  
+}
+
+#image1{
+
+    width: 250px;
+    height: auto;
+    position: absolute;
+    top: 280px;
+    right: 30px;
+    
+}
+
+.dropdown{
+
+    position: relative;
+    display: inline-block;
+
+}
+  
+.dropdown-content{
+
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100%;
+    overflow: auto;
+  
+}
+  
+.dropdown-content a{
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+
+}
+  
+.dropdown-content a:hover {background-color: #ddd;}
+  
+.dropdown:hover .dropdown-content {display: block;}
